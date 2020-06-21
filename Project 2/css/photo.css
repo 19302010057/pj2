@@ -1,0 +1,162 @@
+@media screen and (max-width:400px ){
+    html{font-size: 14px;}
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+    html{font-size: 17px}
+}
+@media screen and (min-width:800px ){
+    html{font-size: 24px;}
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #000000;
+    background: rgba(1,1,1,.03);
+}
+nav h2 a:hover{
+    color: blue;
+}
+nav a{
+    float: left;
+    margin-right:10px;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+}
+header{
+    background: black;;
+    height: 1.4rem;
+    padding:2px 5px;
+}
+.nav,.plat,.plat a{
+    font-size: 0.8rem;
+    list-style: none;
+    text-decoration: none;
+    background-color: #3C3C3C;
+    color: #FFFFFF;
+    width: 5rem;
+    text-align: center;
+    border: 0px solid black;
+    margin-top: 1px;
+    text-align: center;
+}
+
+.plat{
+    display: none;
+}
+.nav{
+    text-align: center;
+    float: right;
+    margin-right: 0;
+}
+.nav:hover .plat{
+    display: inline-block;
+    clear: both;
+}
+.plat li:hover>a{
+    background-color: dimgrey;
+}
+header a {
+    color: aliceblue;
+}
+.header-photo{
+    width: 1.4rem;
+    height: 1.2rem;
+    float: left;
+    margin: 5px;
+}
+.plat-photo{
+    width: 1rem;
+    height: 1rem;
+    float: left;
+    margin-top: 4px;
+}
+.center-sub{
+    width: 3rem;
+    height: 1rem;
+}
+.login{
+    margin-left: 1.5rem;
+}
+/*以上为header区域**/
+
+
+.photo-title{
+    background:rgba(1,1,1,0.1);
+    font-size: 0.7rem;
+    line-height: 1.7rem;
+    height: 1.7rem;
+    padding-left: 0.8rem;
+}
+.title{
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+    margin-top:1.3rem ;
+}
+.li-title{
+    background:rgba(1,1,1,0.1);
+}
+.like_number{
+    text-align: center;
+    color: red;
+    height: 1.3rem;
+    line-height: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+.main ul li{
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: black;
+    color: black;
+    height: 1.7rem;
+    line-height:1.7rem ;
+    font-size: 0.6rem;
+    padding-left: 0.8rem;
+    font-weight: bolder;
+}
+ul{
+    float: left;
+    width: 35%;
+    margin-right: 1.3rem;
+}
+.main{
+    margin: 0.8rem;
+}
+.main img{
+    display: block;
+    width: 60%;
+    height: 18rem;
+    float: left;
+    margin-right: 0.4rem;
+}
+.photo-all{
+    width: 85%;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: black;
+    margin: 0 auto;
+}
+.collect{
+    background: red;
+    color: white;
+}
+.collect img{
+    width: 1rem;
+    height: 1rem;
+    margin-left: 40%;
+    margin-top: 2%;
+    float: left;
+}
+footer{
+    background: black;
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 0.6rem;
+}
+p{
+    margin-top:0.8rem;
+    font-size: 0.6rem;
+    clear: both;
+}

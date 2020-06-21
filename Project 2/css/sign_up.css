@@ -1,0 +1,60 @@
+@media screen and (max-width:400px ){
+    html{font-size: 14px;}
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+    html{font-size: 17px}
+}
+@media screen and (min-width:800px ){
+    html{font-size: 24px;}
+}
+.sign_up{
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: rgba(0,0,0,0.5);
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+}
+.sign_up img{
+    width: 6.2rem;
+    height: 6.2rem;
+}
+form{
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: rgba(0,0,0,0.5);
+    display: block;
+    font-size: 0.7rem;
+    padding-left: 1.7rem;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 1.7rem;
+    margin-top: 1.7rem;
+    text-align: left;
+}
+input{
+    width: 80%;
+    height: 1.3rem;
+    margin-bottom:0.7rem;
+}
+input[type="submit"]{
+    background: chartreuse;
+    font-size: 0.7rem;
+}
+input[type="submit"]:hover{
+    background: blue;
+}
+input[type="button"]{
+    background: chartreuse;
+    font-size: 0.7rem;
+}
+input[type="button"]:hover{
+    background: blue;
+}
+footer{
+    background: black;
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 0.6rem;
+}

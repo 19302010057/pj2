@@ -1,0 +1,140 @@
+@media screen and (max-width:400px ){
+       html{font-size: 14px;}
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+      html{font-size: 17px}
+}
+@media screen and (min-width:800px ){
+    html{font-size: 24px;}
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #000000;
+    background: rgba(1,1,1,.03);
+}
+nav h2 a:hover{
+    color: blue;
+}
+nav a{
+    float: left;
+    margin-right:10px;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+}
+header{
+    background: black;;
+    height: 1.4rem;
+    padding:2px 5px;
+}
+.nav,.plat,.plat a{
+    font-size: 0.8rem;
+    list-style: none;
+    text-decoration: none;
+    background-color: #3C3C3C;
+    color: #FFFFFF;
+    width: 5rem;
+    text-align: center;
+    border: 0px solid black;
+    margin-top: 1px;
+    text-align: center;
+}
+
+.plat{
+    display: none;
+}
+.nav{
+    text-align: center;
+    float: right;
+}
+.nav:hover .plat{
+    display: inline-block;
+    clear: both;
+}
+.plat li:hover>a{
+    background-color: dimgrey;
+}
+header a {
+    color: aliceblue;
+}
+.home{
+    background: darkgray;
+}
+.header-photo{
+    width: 1.4rem;
+    height: 1.2rem;
+    float: left;
+    margin: 5px;
+}
+.plat-photo{
+    width: 1rem;
+    height: 1rem;
+    float: left;
+    margin-top: 4px;
+}
+.center-sub{
+    width: 3rem;
+    height: 1rem;
+}
+.login{
+    margin-left: 1.5rem;
+}
+/*以上为header区域**/
+
+figure{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background:gainsboro;
+    float: left;
+    padding: 0.5rem;
+    margin-left: 1.3rem;
+    margin-right: 2.1rem;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    width: 8.4rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+figure img{
+    width: 8.1rem;
+    height: 8.1rem;
+    border-radius: 0.4px;
+}
+.main-photo{
+    margin: 0 auto;
+    width: 39.1rem;
+    height: 28.1rem;
+}
+.small-photo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+section{
+    width: 75%;
+    margin: 0 auto;
+}
+/*主体图片部分**/
+footer{
+    background: black;
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 0.6rem;
+    overflow: hidden;
+}
+.footer{float: left}
+footer img{
+    width: 3rem;
+    height: auto;
+    float: right;
+    margin-right: 5rem;
+}
+.button{
+   position:fixed;
+    right: 0;
+    bottom: 0;
+}
